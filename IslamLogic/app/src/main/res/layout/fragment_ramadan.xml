@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim10"
+    tools:context=".fragment.RamadanFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_white_bg_transparent_white">
+
+        <LinearLayout
+            android:id="@+id/llHeaderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingTop="@dimen/dim5"
+                android:paddingBottom= "@dimen/dim5"
+                android:gravity="center"
+                android:text="Date"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimTex20"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingTop="@dimen/dim5"
+                android:paddingBottom= "@dimen/dim5"
+                android:gravity="center"
+                android:text="Suhur Time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimTex20"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingTop="@dimen/dim5"
+                android:paddingBottom= "@dimen/dim5"
+                android:gravity="center"
+                android:text="Iftar Time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimTex20"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/border"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_below="@+id/llHeaderLayout"
+            android:background="@color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvSuhurIftarSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/border" />
+    </RelativeLayout>
+</RelativeLayout>

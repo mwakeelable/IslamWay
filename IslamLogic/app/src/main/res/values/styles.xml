@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MorningTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/morningActionbar</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/morningrlBottomLayout</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/morningrlBottomLayout</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:windowBackground">@drawable/morning</item>
+        <item name="android:itemBackground">@color/morningrlBottomLayout</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+           colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+    <style name="AfterNoonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/afternoonActionbar</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/afternoonStatusbar</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/afternoonrlBottomLayout</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:windowBackground">@drawable/afternoon</item>
+        <item name="android:itemBackground">@color/afternoonStatusbar</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+           colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+    <style name="EveningTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/eveningActionbar</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/eveningStatusbar</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/eveningrlBottomLayout</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:windowBackground">@drawable/evening</item>
+        <item name="android:itemBackground">@color/eveningStatusbar</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+           colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nightActionbar</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/nightStatusbar</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/nightrlBottomLayout</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:windowBackground">@drawable/night</item>
+        <item name="android:itemBackground">@color/nightStatusbar</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+           colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+
+
+</resources>

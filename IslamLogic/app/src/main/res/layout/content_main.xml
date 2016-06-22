@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".ui.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="100dp">
+
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:id="@+id/rl6kalma"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/iv6kalma"
+                    android:clickable="true"
+                    android:onClick="Clicker"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kalmaicon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/relativeLayout"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relativeLayout5">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ivqibladirction"
+                    android:clickable="true"
+                    android:onClick="Clicker"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/qiblaicon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/relativeLayout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ivprayertiming"
+                    android:clickable="true"
+                    android:onClick="Clicker"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/prayertimeicon" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:id="@+id/relativeLayout"
+                android:layout_below="@+id/rl6kalma"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="Clicker"-->
+                    <!--android:id="@+id/ivduas"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:src="@drawable/duaicon" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/relativeLayout2"
+                android:layout_alignTop="@+id/relativeLayout"
+                android:layout_centerHorizontal="true"
+                >
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/ivqibladirction"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="Clicker"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:src="@drawable/qiblaicon" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/relativeLayout3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/relativeLayout2">
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/ivprayertiming"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="Clicker"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:src="@drawable/prayertimeicon" />-->
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/relativeLayout4"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="200dp"
+                android:layout_marginTop="33dp">
+
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/ivlearnquran"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="Clicker"-->
+                    <!--android:src="@drawable/learnquranicon" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/relativeLayout6"
+                android:layout_alignBottom="@+id/relativeLayout4"
+                android:layout_centerHorizontal="true"
+                >
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/ivmosquenearby"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="Clicker"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:src="@drawable/mosque"-->
+                    <!--/>-->
+            </RelativeLayout>
+
+        </RelativeLayout>
+</RelativeLayout>

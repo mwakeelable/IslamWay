@@ -1,0 +1,41 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/azkarCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/activity_vertical_margin"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/azkarName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azkar"
+            android:textAlignment="gravity"
+            android:textSize="24sp"
+            android:gravity="right"/>
+
+        <TextView
+            android:id="@+id/zekrHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hint"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#009688</color>-->
+    <!--<color name="colorPrimaryDark">#00796B</color>-->
+    <!--<color name="colorAccent">#FFEB3B</color>-->
+
+    <color name="background">#3b0708</color>
+    <color name="background_text_color">#dadada</color>
+    <color name="semi_transparent_white">#55FFFFFF</color>
+    <color name="textcolor">#6c0002</color>
+
+
+    <!-- Global -->
+
+    <color name="background_listview_color_up">#2c0033</color>
+    <color name="background_listview_color_down">#1a001e</color>
+    <color name="bg_title_bar_color">#5e0573</color>
+    <color name="bg_drawer_color">#3f3830</color>
+    <color name="divider_color_dark">#332c26</color>
+    <color name="divider_color_light">#514a42</color>
+    <color name="bg_drawer_select_color">#453e36</color>
+
+
+
+    <color name="semi_transparent_black">#55000000</color>
+
+    <!-- Green Theme -->
+    <color name="green_background_color">#ff5A6131</color>
+    <!--<color name="green_background">@drawable/bg_pattern_green_repeat</color>-->
+    <color name="light_yellow">#eccd34</color>
+    <color name="overscroll">#e5333c</color>
+    <!-- Brown Theme -->
+    <color name="brown_background_color">#ff5F4135</color>
+
+    <color name="colorPrimary">#6c0002</color>
+    <color name="colorPrimaryDark">#580001</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="windowBackground">#ffffff</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#580001</color>
+
+    <color name="color_text_button_one">#0d1343</color>
+    <color name="color_line_one">#8cedff</color>
+    <color name="color_select_one">#009cff</color>
+    <color name="color_header_one">#000</color>
+    <color name="color_map_one">#800d1343</color>
+
+    //////////// style two /////////////
+    <color name="color_text_button_two">#468966</color>
+    <color name="color_line_two">#fff0a5</color>
+    <color name="color_select_two">#ffd400</color>
+    <color name="color_header_two">#234433</color>
+    <color name="color_map_two">#80468966</color>
+
+    //////////// style three /////////////
+    <color name="color_text_button_three">#eb7f00</color>
+    <color name="color_line_three">#f3ffe2</color>
+    <color name="color_select_three">#ffcb5a</color>
+    <color name="color_header_three">#753f00</color>
+    <color name="color_map_three">#80eb7f00</color>
+
+
+    //////////// style four /////////////
+    <color name="color_text_button_four">#01b0f0</color>
+    <color name="color_line_four"> #ffffff</color>
+    <color name="color_select_four">#08759d</color>
+    <color name="color_header_four">#005878</color>
+    <color name="color_map_four">#8001b0f0</color>
+
+    //////////// style five /////////////
+    <color name="color_text_button_five">#4e7ac7</color>
+    <color name="color_line_five"> #add5f7</color>
+    <color name="color_select_five">#35478c</color>
+    <color name="color_header_five">#273d63</color>
+
+    //////////// style six /////////////
+    <color name="color_text_button_six">#ffffff</color>
+    <color name="color_line_six"> #555555</color>
+    <color name="color_select_six">#000000</color>
+    <color name="color_header_six">#7f7f7f</color>
+
+    //////////// style seven /////////////
+    <color name="color_text_button_seven">#039997</color>
+    <color name="color_line_seven"> #5cfffd</color>
+    <color name="color_select_seven">#014c4b</color>
+    <color name="color_header_seven">#000000</color>
+
+
+    //////////// style eight /////////////
+    <color name="color_text_button_eight">#af1f23</color>
+    <color name="color_line_eight"> #ffbdbf</color>
+    <color name="color_select_eight">#570f11</color>
+    <color name="color_header_eight">#570f11</color>
+
+    //////////// style nine /////////////
+    <color name="color_text_button_nine">#222222</color>
+    <color name="color_line_nine"> #ffffff</color>
+    <color name="color_select_nine">#555555</color>
+    <color name="color_header_nine">#111111</color>
+
+    //////////// style ten /////////////
+    <color name="color_text_button_ten">#7b52ab</color>
+    <color name="color_line_ten"> #e7d4ff</color>
+    <color name="color_select_ten">#3d2955</color>
+    <color name="color_header_ten">#3d2955</color>
+
+    <color name="colorHomeBotomAfternoon">#923000</color>
+    <color name="colorHadithDay">#aa3800</color>
+    <color name="colorHadithMorning">#363baa</color>
+    <color name="colorHadithNight">#4b0066</color>
+    <color name="colorHadithEvening">#6b042b</color>
+    <color name="grey_555">#555555</color>
+    <color name="green_transparent">#809E9D24</color>
+    <color name="green_light_border">#76FF03</color>
+    <color name="green">#66BB6A</color>
+    <color name="green_sel">#A5D6A7</color>
+    <color name="red_transparent">#80D84315</color>
+    <color name="red_light_border">#FF3D00</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="white_light_border">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="black_transparent">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="a">#4b0066</color>
+    <color name="morningrlBottomLayout">#282c8a</color>
+    <color name="afternoonrlBottomLayout">#923000</color>
+    <color name="eveningrlBottomLayout">#4f0420</color>
+    <color name="nightrlBottomLayout">#2d003d</color>
+
+    <color name="morningActionbar">#4D52B1</color>
+    <color name="morningStatusbar">#3D4BAB</color>
+    <color name="afternoonActionbar">#DD7200</color>
+    <color name="afternoonStatusbar">#924B00</color>
+    <color name="eveningActionbar">#9D1246</color>
+    <color name="eveningStatusbar">#870E33</color>
+    <color name="nightActionbar">#380047</color>
+    <color name="nightStatusbar">#2F0039</color>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Islam Way</string>
+    <string name="splash">Islam Way</string>
+    <string name="title_activity_azkar">@string/app_name</string>
+    <string name="title_activity_category">@string/app_name</string>
+    <string name="title_activity_qibla">@string/app_name</string>
+    <string name="title_activity_pray_times">@string/app_name</string>
+    <string name="txt_nav_open">Open</string>
+    <string name="txt_nav_close">Close</string>
+
+    <string name="nav_suhur_iftar_time">Suhur &amp; Iftar Time table</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_share_app">Share Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_title">Get ready for salah</string>
+    <string name="fajr">Fajr</string>
+    <string name="zuhr">Zuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+</resources>
